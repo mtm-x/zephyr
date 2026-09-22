@@ -162,3 +162,11 @@
 	pinctrl-0 = <&analog_pa23>;
 	pinctrl-names = "default";
 };
+
+&timg8 {
+	status = "okay";
+};
+
+&system_timer {
+	status = "okay";
+};
